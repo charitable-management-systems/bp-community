@@ -1,0 +1,21 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    display: block;
+    padding-top: 4rem;
+    width: 90%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+.awardee {
+    width: 100%;
+    display: flex;
+    div {
+        display: inline;
+        width: 33%;
+    } 
+}

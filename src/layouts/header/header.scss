@@ -1,0 +1,43 @@
+.header {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    position: fixed;
+    height: 2.5rem;
+    padding: 0.5rem;
+    padding-top: 1.6rem;
+    background-color: #ffffff;
+    border-bottom: 1px solid rgba(155,155,155, 0.3);
+
+    .logo {
+        display: flex;
+        img {
+            padding: 0;
+            margin-left: 1rem;
+            margin-top: -1.25rem;
+            height: 3.75rem;
+            display: inline-flex;
+        }
+        h3 {
+            margin-left: 0.4rem;
+            margin-top: 0.4rem;
+            display: inline-flex;
+            color: #00aa48;
+            font-size: 1.3rem;
+        }
+    }
+
+    .menu {
+        text-align: right;
+        padding-right: 20px;
+        padding-top: 0.4rem;
+        .menuItem {
+            display: inline-flex;
+            padding-left: 10px;
+            padding-right: 10px;
+            color: #a7d11c;
+            text-decoration: none;
+            font-size: 1.15rem;
+        }
+    }
+}
