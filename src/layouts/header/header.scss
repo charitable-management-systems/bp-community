@@ -11,14 +11,19 @@
 
     .logo {
         display: flex;
-        img {
+        a {
+            padding: 0;
+            display: inline-flex;
+            text-decoration: none;
+        }
+        a > img {
             padding: 0;
             margin-left: 1rem;
             margin-top: -1.25rem;
             height: 3.75rem;
             display: inline-flex;
         }
-        h3 {
+        a > h3 {
             margin-left: 0.4rem;
             margin-top: 0.4rem;
             display: inline-flex;

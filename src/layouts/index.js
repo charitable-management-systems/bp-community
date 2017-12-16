@@ -8,34 +8,17 @@ import './index.scss'
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-       title="BP Community Scholarship"
-       meta={[
-         { name: 'description', content: '' },
-         { name: 'keywords', content: '' },
-       ]}
-     />
-  <Header />
-  <div className="content">
-    {children()}
+      title="BP Community Scholarship"
+      meta={[
+        { name: 'description', content: '' },
+        { name: 'keywords', content: '' },
+      ]}
+    />
+    <Header />
+    <div className="content">
+      {children()}
+    </div>
   </div>
-  </div>
-
-
-  // <Layout>
-  //   <Helmet
-  //     title="BP Community Scholarship"
-  //     meta={[
-  //       { name: 'description', content: '' },
-  //       { name: 'keywords', content: '' },
-  //     ]}
-  //   />
-  //   <Header theme="Light">
-  //     <Menu>
-  //       <Menu.Item>Hello</Menu.Item>
-  //     </Menu>
-  // </Header>
-  //   
-  // </Layout>
 )
 
 TemplateWrapper.propTypes = {
