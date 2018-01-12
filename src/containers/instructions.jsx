@@ -7,7 +7,7 @@ const Instructions = () => (
         <a name={name} />
         <h3>{name}</h3>
         <section>
-            <p>All applications must be submitted online by March 24, 2017.</p>
+            <p>All applications must be submitted online by March 16, 2018.</p>
             <p>Applicants will be required to upload a 500 – 750 word personal statement addressing all of the following questions:</p>
             <ul>
                 <li>What have been the most important experiences during your high school years that have prepared you for college?</li>

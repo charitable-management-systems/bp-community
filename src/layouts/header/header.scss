@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns: 35% 65%;
     position: fixed;
-    height: 2.5rem;
+    height: 5rem;
     padding: 0.5rem;
     padding-top: 1.6rem;
     background-color: #ffffff;
@@ -19,13 +19,14 @@
         a > img {
             padding: 0;
             margin-left: 1rem;
-            margin-top: -1.25rem;
-            height: 3.75rem;
+            margin-top: -1rem;
+            height: 84px;
+            width: 64px;
             display: inline-flex;
         }
         a > h3 {
-            margin-left: 0.4rem;
-            margin-top: 0.4rem;
+            margin-left: 0.75rem;
+            margin-top: 1.75rem;
             display: inline-flex;
             color: #00aa48;
             font-size: 1.3rem;
@@ -35,7 +36,7 @@
     .menu {
         text-align: right;
         padding-right: 20px;
-        padding-top: 0.4rem;
+        padding-top: 1.75rem;
         .menuItem {
             display: inline-flex;
             padding-left: 10px;
