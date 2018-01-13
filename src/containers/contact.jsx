@@ -4,7 +4,7 @@ const name = "Contact"
 
 const Contact = () => (
     <div>
-        <a name={name} />
+        <a className="anchor" name={name} />
         <h3>{name}</h3>
         <section>
             <p>Applications must be submitted online</p>

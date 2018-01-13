@@ -5,6 +5,13 @@ html, body {
     font-size: 1.1rem;
 }
 
+.anchor {
+    display: block;
+    position: relative;
+    top: -5.5rem;
+    visibility: hidden;
+}
+
 .content {
     display: block;
     padding-top: 6.5rem;

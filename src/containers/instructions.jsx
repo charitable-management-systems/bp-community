@@ -4,7 +4,7 @@ const name = "Instructions"
 
 const Instructions = () => (
     <div>
-        <a name={name} />
+        <a className="anchor" name={name} />
         <h3>{name}</h3>
         <section>
             <p>All applications must be submitted online by March 16, 2018.</p>

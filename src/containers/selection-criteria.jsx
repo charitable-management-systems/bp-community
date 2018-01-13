@@ -4,7 +4,7 @@ import React from "react"
 
 const SelectionCriteria = () => (
     <div>
-        <a name="selection-criteria" />
+        <a className="anchor" name="selection-criteria" />
         <h3>Selection Criteria</h3>
         <section>
             <p>Awards will be based on the information provided on the application, the personal statement, academic performance, extracurricular activities, work experience, individual goals and demonstrated financial need.</p>

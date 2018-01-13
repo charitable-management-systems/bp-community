@@ -4,7 +4,7 @@ const name = "Eligibility"
 
 const EligibilityPage = () => (
     <div>
-        <a name={name} />
+        <a className="anchor" name={name} />
         <h3>{name}</h3>
         <section>
             <p>To be considered for a BP Community Scholarship, you must meet all of the following criteria:</p>
