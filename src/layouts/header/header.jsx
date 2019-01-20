@@ -15,10 +15,10 @@ class Header extends React.Component {
         }
     }
 
-    toggleMenu = () => 
+    toggleMenu = () =>
         this.setState(prevState => ({menuFlag: prevState.menuFlag ? false : true}))
 
-    menuClasses = () => 
+    menuClasses = () =>
         this.state.menuFlag ? ['menuItemList', 'menuItemList--active'].join(' ') : ['menuItemList']
 
     render() {
@@ -34,7 +34,7 @@ class Header extends React.Component {
                     <div className="menuIcon"><Menu onClick={this.toggleMenu} /></div>
                     <div className={this.menuClasses()}>
                         {/* <a className="menuItem" onClick={notOpen} style={{'cursor': 'pointer'}}>Apply</a> */}
-                        <a className="menuItem" href="https://apply.bpscholarships.com">apply</a>
+                        <a className="menuItem" href="https://apply.bpscholarships.com/application/login">apply</a>
                         <a className="menuItem" onClick={this.toggleMenu}  href="#Instructions">instructions</a>
                         <a className="menuItem" onClick={this.toggleMenu}  href="#Eligibility">eligibility</a>
                         {/* <Link className="menuItem" to="/awardees">awardees</Link> */}
