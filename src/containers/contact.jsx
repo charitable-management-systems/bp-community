@@ -10,10 +10,15 @@ const Contact = () => (
             <p>Applications must be submitted online</p>
             <p>All required forms and transcripts should be mailed to:</p>
             <p><strong>BP Community Scholarship Program<br />PO Box 648<br />Naperville, IL  60566</strong></p>
-            <p>Fax: 630-428-2695</p>
             <br />
             <p>For program questions or technical support:</p>
-            <p><strong>info@bpscholarships.com<br /><br />630-428-2412</strong></p>
+            <p>
+              <strong>
+                info@bpscholarships.com<br /><br />
+                630-428-2412<br />
+                Fax: 630-428-2695
+              </strong>
+            </p>
         </section>
     </div>
 )
