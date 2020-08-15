@@ -4,6 +4,7 @@
     grid-template-columns: 35% 65%;
     position: fixed;
     height: 2.5rem;
+    top: 75px;
     padding: 0.5rem;
     padding-top: 1.6rem;
     background-color: #ffffff;
@@ -48,6 +49,17 @@
     }
 }
 
+.alert {
+  background-color: #355CAF;
+  position: fixed;
+  color: white;
+  padding: 0.5rem;
+
+  p {
+    margin: 0;
+  }
+}
+
 @media all and (max-width: 1010px) {
     .header {
         .logo {
@@ -63,7 +75,7 @@
         .logo {
             a > h3 {
                 margin-top: 0rem;
-                font-size: 1rem; 
+                font-size: 1rem;
             }
         }
         .menu {
@@ -107,14 +119,14 @@
                 from {
                   right: -40%;
                 }
-              
+
                 to {
                   right: 0%;
                 }
             }
         }
     }
-    
+
 
 }
 
@@ -124,7 +136,7 @@
             a > h3 {
                 margin-left: 1rem;
                 margin-top: -0.1rem;
-                font-size: 0.9rem; 
+                font-size: 0.9rem;
             }
         }
     }
@@ -136,7 +148,7 @@
             a > h3 {
                 margin-left: 1rem;
                 margin-top: -0.1rem;
-                font-size: 0.9rem; 
+                font-size: 0.9rem;
             }
         }
     }

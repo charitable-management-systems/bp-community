@@ -4,7 +4,7 @@ import { Menu } from 'react-feather'
 import "./header.scss"
 import logo from "./bp.svg"
 
-const notOpen = () => alert('The deadline has passed. We are no longer accepting applications.')
+const notOpen = () => alert('Program closed.  We will begin accepting new applications in mid-January 2021.')
 
 class Header extends React.Component {
 
@@ -22,8 +22,8 @@ class Header extends React.Component {
         this.state.menuFlag ? ['menuItemList', 'menuItemList--active'].join(' ') : ['menuItemList']
 
     render() {
-        console.log(this.menuClasses());
         return (
+            <div>
             <div className="header">
                 <div className="logo">
                     <a to="/">
@@ -43,6 +43,7 @@ class Header extends React.Component {
                     </div>
                 </div>
             </div>
+          </div>
         )
     }
 }

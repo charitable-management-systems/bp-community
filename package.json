@@ -2,7 +2,7 @@
   "name": "gatsby-starter-default",
   "description": "Gatsby default starter",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "jimmy <Jimmy@mgmail.com>",
   "dependencies": {
     "antd": "^3.0.1",
     "gatsby": "^1.9.127",

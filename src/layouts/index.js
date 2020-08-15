@@ -5,6 +5,9 @@ import Helmet from 'react-helmet'
 import Header from "./header/header"
 import './index.scss'
 
+import privacy from "../pdf/privacy_policy.pdf"
+import terms from "../pdf/terms_of_use.pdf"
+
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
@@ -18,6 +21,10 @@ const TemplateWrapper = ({ children }) => (
     <div className="content">
       {children()}
     </div>
+    <footer style={{borderTop: "1px solid black", padding: "0.25rem", paddingLeft: "0.5rem"}}>
+      <a target="_blank" href={privacy} style={{paddingRight: "0.5rem"}}>Privacy Policy</a>
+      <a target="_blank" href={terms}>Terms of Use</a>
+    </footer>
   </div>
 )
 

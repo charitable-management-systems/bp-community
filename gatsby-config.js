@@ -13,5 +13,12 @@ module.exports = {
         path: `${__dirname}/data/`,
       },
     },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'pdf',
+        path: `${__dirname}/src/pdf`,
+      },
+    },
   ],
 }
