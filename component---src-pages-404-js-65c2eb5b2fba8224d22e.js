@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkbp_community_schoarlships=self.webpackChunkbp_community_schoarlships||[]).push([[883],{429:function(e,t,s){s.r(t);var l=s(7294);t.default=()=>l.createElement("div",null,l.createElement("h1",null,"NOT FOUND"),l.createElement("p",null,"You just hit a route that doesn't exist... the sadness."))}}]);
+//# sourceMappingURL=component---src-pages-404-js-65c2eb5b2fba8224d22e.js.map
