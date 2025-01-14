@@ -1,24 +1,17 @@
+/**
+ * @type {import('gatsby').GatsbyConfig}
+ */
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: `BP Community Schoarlships`,
+    siteUrl: `https://bpscholarships.com`,
   },
-  plugins: [
-    'gatsby-plugin-sass',
-    'gatsby-plugin-react-helmet',
-    `gatsby-transformer-json`,
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'data',
-        path: `${__dirname}/data/`,
-      },
+  plugins: ["gatsby-plugin-sass", "gatsby-plugin-image", "gatsby-plugin-sitemap", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
+    resolve: 'gatsby-source-filesystem',
+    options: {
+      "name": "images",
+      "path": "./src/images/"
     },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'pdf',
-        path: `${__dirname}/src/pdf`,
-      },
-    },
-  ],
-}
+    __key: "images"
+  }]
+};

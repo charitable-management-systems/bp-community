@@ -4,7 +4,7 @@ import { Menu } from 'react-feather'
 import "./header.scss"
 import logo from "./bp.svg"
 
-const notOpen = () => alert('The application deadline has passed, please check back in January 2023')
+const notOpen = () => alert('The application deadline has passed, please check back in January 2024')
 
 class Header extends React.Component {
 
@@ -33,11 +33,10 @@ class Header extends React.Component {
                 <div className="menu">
                     <div className="menuIcon"><Menu onClick={this.toggleMenu} /></div>
                     <div className={this.menuClasses()}>
-                        <a className="menuItem" onClick={notOpen} style={{'cursor': 'pointer'}}>Apply</a>
-                        {/* <a className="menuItem" href="https://apply.bpscholarships.com/application/login">apply</a> */}
+                        {/* <a className="menuItem" onClick={notOpen} style={{'cursor': 'pointer'}}>Apply</a> */}
+                        <a className="menuItem" href="https://apply.bpscholarships.com/application/login">apply</a>
                         <a className="menuItem" onClick={this.toggleMenu}  href="#Instructions">instructions</a>
                         <a className="menuItem" onClick={this.toggleMenu}  href="#Eligibility">eligibility</a>
-                        {/* <Link className="menuItem" to="/awardees">awardees</Link> */}
                         <a className="menuItem" onClick={this.toggleMenu}  href="#selection-criteria">selection criteria</a>
                         <a className="menuItem" onClick={this.toggleMenu}  href="#Contact">contact</a>
                     </div>
